@@ -1,0 +1,7 @@
+---
+
+- name: Hello World Sample
+  hosts: all
+  tasks:
+  - name: Creating Directory
+    file: path=/home/test state=directory
